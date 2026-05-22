@@ -1,37 +1,34 @@
 # Sigmaplay & Cafe
 
-Standalone landing page for Gaming cafe.
+Production-grade single-page concept for Gaming cafe.
 
-## Design concept
+## Visual philosophy
 
-Cyberpunk / Futuristic UI single-page landing
+HUD-inspired esports control room with RGB edge light, angular modules, and dark matte surfaces.
 
-## Conversion goal
+## Business logic
 
-Convert game-night traffic into fast booking through neon station cards, cafe cues, and a clear squad CTA.
+Convert squad traffic into confirmed console bookings, membership, and weekend community events.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor arrives as a player, selects a station, checks squad perks, sees events, then books a time slot.
 
-## Brand-specific sections
+## Motion system
 
-- Gaming Stations: Console bays made for solo runs and full squad sessions.
-- Cafe Menu: Snacks and drinks keep the session going.
-- Community Events: Small tournaments, weekend battles, and content nights.
-- Session Pricing: Simple offers that match how players buy time.
+Reactive scanlines, fast hover locks, subtle parallax grid drift.
 
-## Public research injected
+## Conversion strategy
 
-- Public profile positions Sigmaplay as a premium PS rental and cafe in Malang.
-- Booking-first links and admin access make speed the strongest conversion angle.
-- Partnership and email signals support a community and collaboration section.
+Primary route is station booking; secondary route is tournament/community participation.
+
+## Operational content included
+
+- Hours: Daily 12:00-23:00, booking confirmation via admin
+- Contact: sigmaplaymalang@gmail.com
+- Pricing/offer cards: Solo Hour Rp20k, Duo Console Rp35k, Squad Night Rp120k
+- Workflow: Pick station type -> Choose date and hour -> Send booking to admin -> Arrive 10 minutes early -> Scan promo/member code
+- Policies: Booking is confirmed by admin reply. / Late arrival may shorten the reserved slot. / Outside food depends on event rules.
 
 ## Source links
 
