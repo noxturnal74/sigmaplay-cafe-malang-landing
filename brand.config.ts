@@ -9,6 +9,23 @@ export const brandConfig = {
   "contact": "sigmaplaymalang@gmail.com",
   "publicLink": "https://linktr.ee/sigmaplay.malang",
   "instagram": "https://www.instagram.com/sigmaplay.malang",
+  "designConcept": "Cyberpunk / Futuristic UI single-page landing",
+  "conversionGoal": "Convert game-night traffic into fast booking through neon station cards, cafe cues, and a clear squad CTA.",
+  "proofPoints": [
+    "Public profile positions Sigmaplay as a premium PS rental and cafe in Malang.",
+    "Booking-first links and admin access make speed the strongest conversion angle.",
+    "Partnership and email signals support a community and collaboration section."
+  ],
+  "sourceLinks": [
+    {
+      "label": "Sigmaplay Linktree",
+      "url": "https://linktr.ee/sigmaplay.malang"
+    },
+    {
+      "label": "Sigmaplay Instagram",
+      "url": "https://www.instagram.com/sigmaplay.malang"
+    }
+  ],
   "theme": {
     "bg": "#070914",
     "accent": "#6c5ce7",
