@@ -3,67 +3,239 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sigmaplay &amp; Cafe | Gaming cafe</title>
-  <meta name="description" content="Convert squad traffic into confirmed console bookings, membership, and weekend community events.">
+  <title>Sigmaplay &amp; Cafe | Gaming cafe / esports lounge</title>
+  <meta name="description" content="A cyber esports lounge flow for console booking, squad sessions, events, memberships, and cafe add-ons.">
+  <link rel="canonical" href="https://sigmaplay-cafe-malang-landing.vercel.app/">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="Sigmaplay &amp; Cafe">
-  <meta property="og:description" content="Convert squad traffic into confirmed console bookings, membership, and weekend community events.">
-  <meta property="og:image" content="./assets/hero.svg">
+  <meta property="og:description" content="A cyber esports lounge flow for console booking, squad sessions, events, memberships, and cafe add-ons.">
+  <meta property="og:url" content="https://sigmaplay-cafe-malang-landing.vercel.app/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&amp;fit=crop&amp;w=1500&amp;q=78">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="./styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Sigmaplay & Cafe","url":"https://sigmaplay-cafe-malang-landing.vercel.app","address":"Malang, Jawa Timur","description":"A cyber esports lounge flow for console booking, squad sessions, events, memberships, and cafe add-ons.","sameAs":["https://linktr.ee/sigmaplay.malang","https://www.instagram.com/sigmaplay.malang"],"openingHours":"Daily 12:00-23:00"}</script>
 </head>
-<body class="theme-gaming" data-layout="gaming" data-motion-profile="gaming">
-  <header class="site-header gaming-nav">
+<body id="top" data-layout="gaming" data-brand="sigmaplay-malang">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
     <a class="logo-lockup" href="#top" aria-label="Sigmaplay &amp; Cafe home">
-      <img src="./assets/logo.svg" alt="Logo Sigmaplay &amp; Cafe" data-fallback-logo>
-      <span class="logo-fallback">SP</span>
-      <strong>Sigmaplay &amp; Cafe</strong>
+      <img src="./assets/logo.svg" alt="Sigmaplay &amp; Cafe logo" width="48" height="48" data-fallback-image>
+      <span>Sigmaplay</span>
     </a>
-    <nav aria-label="Primary"><a href="#control">Control</a><a href="#arena">Arena</a><a href="#events">Events</a><a href="#visit">Book</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-nav-panel>
+      <a href="#packages" data-nav-link>Offers</a>
+<a href="#gallery" data-nav-link>Gallery</a>
+<a href="#proof" data-nav-link>Proof</a>
+<a href="#business-info" data-nav-link>Visit</a>
+<a href="#faq" data-nav-link>FAQ</a>
+    </nav>
   </header>
-  <main id="top">
-    <section class="game-hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="scan-copy">
-        <p class="eyebrow">Premium PS rental / cafe / squad nights</p>
-        <h1>Book the station. Bring the squad. Own the night.</h1>
-        <p>Convert squad traffic into confirmed console bookings, membership, and weekend community events.</p>
-        <div class="actions"><a class="button primary" href="https://linktr.ee/sigmaplay.malang" target="_blank" rel="noreferrer">Start Booking</a><a class="button ghost" href="#events">View Events</a></div>
-      </div>
-      <div class="availability-console">
-        <span class="console-status">Live board concept</span>
-        <strong>12 console bays concept</strong><strong>3 squad zones</strong><strong>Weekend mini events</strong><strong>Admin-fast booking</strong>
-      </div>
-    </section>
-    <section id="control" class="hud-grid">
-      <article class="wide"><span>Station Specs</span><h2>Console bays, squad seating, controller-ready setup.</h2><p>Operational dashboard plus arena bento, not a standard hero-to-about sequence.</p></article>
-      <article><span>Solo Hour</span><strong>Rp20k</strong><p>single player session</p></article><article><span>Duo Console</span><strong>Rp35k</strong><p>two-controller setup</p></article><article><span>Squad Night</span><strong>Rp120k</strong><p>group block, snacks optional</p></article>
-    </section>
-    <section id="arena" class="arena-map">
-      <div><p class="eyebrow">Booking workflow</p><h2>From chat to confirmed station in five operational steps.</h2></div>
-      <ol><li>Pick station type</li><li>Choose date and hour</li><li>Send booking to admin</li><li>Arrive 10 minutes early</li><li>Scan promo/member code</li></ol>
-    </section>
-    <section id="events" class="event-strip">
-      <div><p class="eyebrow">Community system</p><h2>Tournaments, membership, cafe add-ons, and partner nights.</h2></div>
-      <div class="chip-wall"><span>Realtime seat board concept</span><span>PS station specs</span><span>Cafe snack add-on</span><span>Tournament registration</span><span>Member night benefits</span></div>
-    </section>
-    <section class="proof-grid"><article><span>01</span><p>Public profile positions the business as premium PS rental plus cafe in Malang.</p></article><article><span>02</span><p>Email and partnership links support community programming.</p></article><article><span>03</span><p>Booking-first link structure suggests low-friction admin confirmation.</p></article></section>
-    <section id="visit" class="visit-panel">
-    <div>
-      <p class="eyebrow">Visit / Contact</p>
-      <h2>Malang, Jawa Timur</h2>
-      <p>Daily 12:00-23:00, booking confirmation via admin</p>
-      <p>sigmaplaymalang@gmail.com</p>
+  <main id="main">
+    <section class="hero hero-gaming" aria-labelledby="hero-title">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Gaming cafe / esports lounge</p>
+      <h1 id="hero-title">Book the station. Bring the squad. Own the night.</h1>
+      <p>A cyber esports lounge flow for console booking, squad sessions, events, memberships, and cafe add-ons.</p>
       <div class="actions">
-        <a class="button primary" href="https://linktr.ee/sigmaplay.malang" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <button type="button" class="button primary" data-open-modal="contact-modal">Book Station</button>
+        <a class="button ghost" href="#gallery">View Events</a>
+      </div>
+      <div class="hero-status">
+        <span data-business-status data-open="12" data-close="23">Checking open status...</span>
+        <span>Daily 12:00-23:00</span>
+      </div>
+    </div>
+    <figure class="image-frame hero-image" data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay real hero image">
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay real hero image" width="1200" height="820" fetchpriority="high" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay real hero image</span>
+    </button>
+    <figcaption>Sigmaplay real hero image</figcaption>
+  </figure>
+  </section>
+  <section id="availability" class="section availability-section" aria-labelledby="availability-title">
+    <div class="section-heading reveal"><p class="eyebrow">Live station board</p><h2 id="availability-title">Players see availability, station type, and squad capacity before chatting.</h2></div>
+    <div class="availability-board" data-selector-group>
+      <button type="button" data-select-card aria-pressed="true"><span>Console Bay A - Open</span><strong>Ready</strong></button>
+<button type="button" data-select-card aria-pressed="false"><span>Squad Sofa - Filling</span><strong>Check</strong></button>
+<button type="button" data-select-card aria-pressed="false"><span>Tournament Room - Weekend</span><strong>Check</strong></button>
+    </div>
+  </section>
+  <section id="packages" class="section split-section"><div class="section-heading reveal"><p class="eyebrow">Gaming packages</p><h2>Package selector built for hourly play, squad sessions, and member conversion.</h2></div><div class="filter-bar" data-filter-group aria-label="Gaming package filter">
+    <button type="button" data-filter="all" aria-pressed="true">all</button>
+<button type="button" data-filter="station" aria-pressed="false">station</button>
+<button type="button" data-filter="event" aria-pressed="false">event</button>
+<button type="button" data-filter="member" aria-pressed="false">member</button>
+  </div><div class="offer-grid"><article class="offer-card reveal" data-offer-card data-category="station">
+    <button type="button" class="offer-select" data-package="Solo Hour" data-price="Rp20k" aria-pressed="true">
+      <span>Solo Hour</span>
+      <strong>Rp20k</strong>
+      <em>Single console session</em>
+    </button>
+  </article>
+<article class="offer-card reveal" data-offer-card data-category="station">
+    <button type="button" class="offer-select" data-package="Duo Console" data-price="Rp35k" aria-pressed="false">
+      <span>Duo Console</span>
+      <strong>Rp35k</strong>
+      <em>Two-controller setup</em>
+    </button>
+  </article>
+<article class="offer-card reveal" data-offer-card data-category="event">
+    <button type="button" class="offer-select" data-package="Squad Night" data-price="Rp120k" aria-pressed="false">
+      <span>Squad Night</span>
+      <strong>Rp120k</strong>
+      <em>Group block plus snack option</em>
+    </button>
+  </article>
+<article class="offer-card reveal" data-offer-card data-category="member">
+    <button type="button" class="offer-select" data-package="Member Pass" data-price="Ask admin" aria-pressed="false">
+      <span>Member Pass</span>
+      <strong>Ask admin</strong>
+      <em>Recurring player perks</em>
+    </button>
+  </article></div></section>
+  <section id="events" class="section event-console"><div class="section-heading reveal"><p class="eyebrow">Tournament calendar</p><h2>Community moments turn casual players into repeat visitors.</h2></div><div class="event-grid"><article class="reveal"><span>Event</span><strong>Friday FIFA ladder</strong><button type="button" data-open-modal="contact-modal">Register interest</button></article>
+<article class="reveal"><span>Event</span><strong>Weekend Tekken bracket</strong><button type="button" data-open-modal="contact-modal">Register interest</button></article>
+<article class="reveal"><span>Event</span><strong>Squad night promo</strong><button type="button" data-open-modal="contact-modal">Register interest</button></article></div></section>
+  <section class="section specs-section"><div class="section-heading reveal"><p class="eyebrow">Console specs</p><h2>Operational clarity: setup, add-ons, rules, and booking flow.</h2></div><div class="trust-grid"><article class="reveal"><span>Trust</span><strong>Admin-fast booking</strong></article>
+<article class="reveal"><span>Trust</span><strong>Squad-friendly seating</strong></article>
+<article class="reveal"><span>Trust</span><strong>Weekend mini events</strong></article>
+<article class="reveal"><span>Trust</span><strong>Cafe add-ons</strong></article></div></section>
+  <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Gaming setup gallery</p>
+      <h2 id="gallery-title">Real-photo direction with visible proof, atmosphere, detail, and business context.</h2>
+    </div>
+    <div class="gallery-grid">
+      <figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay hero atmosphere">
+      <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay hero atmosphere" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay hero atmosphere</span>
+    </button>
+    <figcaption>Sigmaplay hero atmosphere</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay service detail">
+      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay service detail" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay service detail</span>
+    </button>
+    <figcaption>Sigmaplay service detail</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay customer moment">
+      <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay customer moment" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay customer moment</span>
+    </button>
+    <figcaption>Sigmaplay customer moment</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay product close-up">
+      <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay product close-up" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay product close-up</span>
+    </button>
+    <figcaption>Sigmaplay product close-up</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay business context">
+      <img src="https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay business context" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay business context</span>
+    </button>
+    <figcaption>Sigmaplay business context</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay proof visual">
+      <img src="https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay proof visual" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay proof visual</span>
+    </button>
+    <figcaption>Sigmaplay proof visual</figcaption>
+  </figure>
+<figure class="image-frame " data-gallery-item>
+    <button class="gallery-button" type="button" data-lightbox-src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" data-lightbox-alt="Sigmaplay gallery detail">
+      <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&amp;fit=crop&amp;w=1500&amp;q=78" alt="Sigmaplay gallery detail" width="1200" height="820" loading="lazy" data-fallback-image>
+      <span class="image-fallback">Image unavailable - Sigmaplay gallery detail</span>
+    </button>
+    <figcaption>Sigmaplay gallery detail</figcaption>
+  </figure>
+    </div>
+  </section>
+  <section id="proof" class="section proof-section" aria-labelledby="proof-title">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Reviews / proof</p>
+      <h2 id="proof-title">Trust signals that answer the doubts real customers bring.</h2>
+    </div>
+    <div class="review-shell" data-review-carousel>
+      <div class="review-track">
+        <blockquote class="review-card is-active" data-review-card><p>Tempat mabar enak untuk full squad.</p><cite>Sigmaplay customer insight</cite></blockquote>
+<blockquote class="review-card " data-review-card><p>Booking harus jelas karena weekend cepat penuh.</p><cite>Sigmaplay customer insight</cite></blockquote>
+<blockquote class="review-card " data-review-card><p>Cafe add-on bikin nunggu giliran lebih nyaman.</p><cite>Sigmaplay customer insight</cite></blockquote>
+      </div>
+      <div class="review-controls">
+        <button type="button" data-review-prev aria-label="Previous review">Prev</button>
+        <button type="button" data-review-next aria-label="Next review">Next</button>
+      </div>
+    </div>
+  </section>
+  <section id="business-info" class="section visit-section" aria-labelledby="visit-title">
+    <div class="visit-copy reveal">
+      <p class="eyebrow">Location / contact</p>
+      <h2 id="visit-title">Malang, Jawa Timur</h2>
+      <p>Daily 12:00-23:00</p>
+      <p>sigmaplaymalang@gmail.com</p>
+      <p class="status-pill" data-business-status data-open="12" data-close="23">Checking open status...</p>
+      <div class="actions">
+        <button type="button" class="button primary" data-open-modal="contact-modal">Book Station</button>
         <a class="button ghost" href="https://www.instagram.com/sigmaplay.malang" target="_blank" rel="noreferrer">Instagram</a>
       </div>
     </div>
-    <iframe title="Sigmaplay &amp; Cafe map" src="https://www.google.com/maps?q=Malang%2C%20Jawa%20Timur&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="map-card reveal">
+      <iframe title="Sigmaplay &amp; Cafe map" src="https://www.google.com/maps?q=Malang%2C%20Jawa%20Timur&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <section id="faq" class="section faq-section" aria-labelledby="faq-title">
+    <div class="section-heading reveal">
+      <p class="eyebrow">FAQ / policy</p>
+      <h2 id="faq-title">Clear terms reduce chat friction before the customer contacts the business.</h2>
+    </div>
+    <div class="faq-grid">
+      <details class="reveal"><summary>Can I reserve multiple consoles?</summary><p>Booking is confirmed by admin reply.</p></details>
+<details class="reveal"><summary>Can communities run mini tournaments?</summary><p>Arrive 10 minutes before the slot.</p></details>
+<details class="reveal"><summary>Are snacks available during play?</summary><p>Late arrival may shorten reserved time.</p></details>
+    </div>
   </section>
   </main>
-  <footer>
-    <span>The page feels like a playable booking console, not a cafe brochure.</span>
+  <footer class="site-footer">
+    <p>Sigmaplay should feel like a playable control room: players choose a station, compare packages, check events, then send a precise booking request.</p>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
+  <div class="modal" id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <form class="modal-panel" data-lead-form novalidate>
+      <button type="button" class="modal-close" data-close-modal aria-label="Close modal">Close</button>
+      <p class="eyebrow">Fast request</p>
+      <h2 id="contact-title">Book Station - Sigmaplay</h2>
+      <label>Name <input name="name" data-field="name" autocomplete="name" required></label>
+      <label>Preferred date/time <input name="time" data-field="time" placeholder="Today, 19:00" required></label>
+      <label>Request details <textarea name="notes" data-field="notes" rows="4" placeholder="Saya mau booking station Sigmaplay"></textarea></label>
+      <input type="hidden" data-selected-package value="Solo Hour">
+      <p class="form-error" data-form-error aria-live="polite"></p>
+      <div class="modal-actions">
+        <button type="button" class="button ghost" data-whatsapp-generate>Generate WhatsApp</button>
+        <a class="button primary" data-whatsapp-link href="https://wa.me/?text=Saya%20mau%20booking%20station%20Sigmaplay" target="_blank" rel="noreferrer">Open WhatsApp</a>
+      </div>
+      <p class="small-note">Business WhatsApp number is intentionally stored as a replaceable JS variable when the real number is not confirmed.</p>
+    </form>
+  </div>
+  <div class="modal lightbox" id="lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel lightbox-panel">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close image preview">Close</button>
+      <h2 id="lightbox-title">Image preview</h2>
+      <img data-lightbox-image alt="" width="1200" height="820">
+    </div>
+  </div>
+  <a class="sticky-cta" data-sticky-cta href="https://wa.me/?text=Saya%20mau%20booking%20station%20Sigmaplay" target="_blank" rel="noreferrer">Book Station</a>
   <script src="./script.js"></script>
 </body>
 </html>
